@@ -102,53 +102,74 @@
 // objects r collections of properties 
 
 
-const item = {
-    price: 100.09,
-    discount : 50,
-    colors :["red","green"]
-};
+// const item = {
+//     price: 100.09,
+//     discount : 50,
+//     colors :["red","green"]
+// };
 
-// create a thread for a twitter post
-const thread = {
-    usernmae: "apnacollege",
-    content: "lifestyle",
-    likes: 200,
-    reposts: 200,
-    tags: 23
-};
+// // create a thread for a twitter post
+// const thread = {
+//     usernmae: "apnacollege",
+//     content: "lifestyle",
+//     likes: 200,
+//     reposts: 200,
+//     tags: 23
+// };
 
 
-// js converts keys to strings automatically
+// // js converts keys to strings automatically
 
-const obj = {
-    1:"a",
-    2:"b",
-    3:"c",
-    true:"d",
-    null:"f"
-}
+// const obj = {
+//     1:"a",
+//     2:"b",
+//     3:"c",
+//     true:"d",
+//     null:"f"
+// }
 
-const student ={
-    name: "shradha",
-    age : 23,
-    city: "delhi",
-    marks: 94.4
-}
+// const student ={
+//     name: "shradha",
+//     age : 23,
+//     city: "delhi",
+//     marks: 94.4
+// }
 
-const classinfo = [
-    {
-        name:"Aman",
-        grade:9,
-        city:"delhi"
-    },
-    {
-        name:"Shradha",
-        grade:9,
-        city:"kanpur"
-    },
-    {
-        name:"Hehe",
-        grade:9,
-        city:"hello"
+// const classinfo = [
+//     {
+//         name:"Aman",
+//         grade:9,
+//         city:"delhi"
+//     },
+//     {
+//         name:"Shradha",
+//         grade:9,
+//         city:"kanpur"
+//     },
+//     {
+//         name:"Hehe",
+//         grade:9,
+//         city:"hello"
+//     }
+// ]
+
+// Random number generation
+const max = prompt("enter the max number: ");
+
+const random = Math.floor(Math.random()+ max) + 1;
+
+let guess = prompt("guess the number");
+while(true) {
+    if(guess == "quit" ){
+        console.log("userquit");
+        break;
     }
-]
+
+    if(guess == random){
+        console.log("You r right");
+        break;
+    } else {
+        guess = prompt("Your guess was wrong");
+
+    }
+}
