@@ -154,22 +154,59 @@
 // ]
 
 // Random number generation
-const max = prompt("enter the max number: ");
+// const max = prompt("enter the max number: ");
 
-const random = Math.floor(Math.random()+ max) + 1;
+// const random = Math.floor(Math.random()+ max) + 1;
 
-let guess = prompt("guess the number");
-while(true) {
-    if(guess == "quit" ){
-        console.log("userquit");
-        break;
-    }
+// let guess = prompt("guess the number");
+// while(true) {
+//     if(guess == "quit" ){
+//         console.log("userquit");
+//         break;
+//     }
 
-    if(guess == random){
-        console.log("You r right");
-        break;
-    } else {
-        guess = prompt("Your guess was wrong");
+//     if(guess == random){
+//         console.log("You r right");
+//         break;
+//     } else {
+//         guess = prompt("Your guess was wrong");
 
-    }
-}
+//     }
+// }
+
+//FUNCTIONS
+// function hello() {
+//     console.log("hello");
+// }
+
+// // Methods 
+// const calculator = {
+//     num : 55,
+//     add : function(a,b){
+//         return a+b;
+//     },
+//     sub : function(a,b){
+//         return a-b;
+//     },
+//     mul : function(a,b){
+//         return a*b;
+//     }
+// };
+
+// const student = {
+//     name:"shradha",
+//     age: 23,
+//     eng:97,
+//     math:100,
+//     sci:90,
+//     getaverage(){
+//         console.log((this.eng + this.math + this.sci)/3);
+//     }
+// }
+
+
+// try {
+//     console.log(a);
+// } catch {
+//     console.log("A is not defined");
+// }
