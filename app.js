@@ -306,4 +306,53 @@
 // };
 
 // object.method(callback, 1,2 );
+//ARRAY METHODS
+
+// let arr = [1,2,3,4,5];
+
+// function prints(w) {
+//     console.log(w);
+// }
+
+// arr.forEach(prints);
+
+// let student = [{
+//     name:"aman",
+//     marks:55
+// },
+// {
+//     name:"shradha",
+//     marks:56
+// },
+// {
+//     name:"rajat",
+//     marks:78
+// }]
+
+// student.forEach((el) => {
+//     console.log(el.name)
+// })
+
+// map
+// let num =[1,2,3,4,5];
+
+// let arr = num.map((el) => {
+//     return el*2;
+// })
+
+//filer function
+
+// let num =[1,2,3,4,5,6,7,8,9,10];
+
+// let arr = num.filter((el) => (el % 2 == 0));
+
+// every function
+// let arr = [2,4,6];
+
+// let he = arr.every((el) => {
+//     return (el % 2 == 0)
+// })
+
+// console.log(he);
+
 
