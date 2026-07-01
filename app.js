@@ -393,3 +393,12 @@
 
 // console.log(...arr);
 // console.log(Math.min(...arr));
+
+// spread - object copy
+// const student = {
+//     name:"shrdaha",
+//     marks:95
+// }
+
+// const studentcopy = {...student, id: 123};
+
