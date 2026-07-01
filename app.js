@@ -402,3 +402,7 @@
 
 // const studentcopy = {...student, id: 123};
 
+// let names = ["a","b","c","d"];
+
+// let[winner,runner] = names;
+// console.log(winner, runner);
