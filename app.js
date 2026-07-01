@@ -361,7 +361,7 @@
 // let finalvalue = num.reduce((res, el) =>(res+el));
 // console.log(finalvalue);
 
-let arr = [1,2,3,4,5,6,7,8];
+// let arr = [1,2,3,4,5,6,7,8];
 
 // let max = -1;
 
@@ -380,3 +380,11 @@ let arr = [1,2,3,4,5,6,7,8];
 //         return max;
 //     }
 // })
+
+// let arr = [10,20,30,40];
+
+// let ans = arr.every((el) => {
+//     return el%10 == 0
+// })
+
+// console.log(ans);
