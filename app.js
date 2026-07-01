@@ -355,4 +355,9 @@
 
 // console.log(he);
 
+// reudce methods
+// let num = [1,2,3,4];
+
+// let finalvalue = num.reduce((res, el) =>(res+el));
+// console.log(finalvalue);
 
